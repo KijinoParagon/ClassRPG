@@ -1,0 +1,17 @@
+﻿@model AndyModel
+@{
+    Layout = "_LayoutAndy";
+}
+<h1>Andy's Domain</h1>
+<p class="bubble">This is andy's domain</p>
+<div class="bubble">
+    <form asp-action="Display">
+        <label>Name?</label>
+        <input asp-for="CharacterName" type="text"/>
+        <label>Max HP?</label>
+        <input asp-for="hp" type="text"/>
+        <label>Max MP?</label>
+        <input asp-for="mp" type="text" />
+        <button type="submit">Submit</button>
+    </form>
+</div>

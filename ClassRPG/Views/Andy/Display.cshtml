@@ -1,0 +1,10 @@
+﻿@model AndyModel
+@{
+    Layout = "_LayoutAndy";
+}
+<h1>Display Page</h1>
+<p class="bubble">This is andy's domain</p>
+<div class="bubble">
+    <p>Hello, @Model.CharacterName</p>
+    <a asp-controller="Home" asp-action="Index">This will take you back home.</a>
+</div>

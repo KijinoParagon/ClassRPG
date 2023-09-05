@@ -1,15 +1,18 @@
 ﻿using ClassRPG.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace ClassRPG.Controllers
 {
-    public class HomeController : Controller
+    public class AndyController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
+        public IActionResult Display(AndyModel model)
+        {
+            return View(model);
+        }
     }
 }
