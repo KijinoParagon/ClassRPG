@@ -4,8 +4,13 @@
 @model GarrettModel
 @{
 }
-<h1>Hello Broskillets</h1>
-<form>
+<h1>Welcome Broskillets</h1>
+<div class="inferno">
+<form asp-action="Display">
     <label>Hello</label>
     <input asp-for="Name" type="text"/>
+    <label>How many toddlers could you take in a fight?</label>
+    <input asp-for="number_of_toddlers" type="text"/>
+    <button type="submit">Submit</button>
 </form>
+</div>
