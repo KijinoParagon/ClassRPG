@@ -10,7 +10,7 @@ html {
     background-size: cover, cover;
     background-image: url("../dead-fish-lying-on-the-beach-on-the-sand-with-sea-waves-free-photo.jpg"), 
         url("../img/cameron_files_pharaohs_curse6__large.jpg");
-    background-blend-mode: screen;
+    background-blend-mode: lighten;
 }
 
 @media (min-width: 768px) {
