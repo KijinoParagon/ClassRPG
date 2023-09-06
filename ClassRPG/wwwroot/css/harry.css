@@ -10,7 +10,7 @@ html {
     background-size: cover, cover;
     background-image: url("../img/2963380121_preview_Screenshot from 2023-04-16 15-39-23.png"), 
         url("../img/cameron_files_pharaohs_curse6__large.jpg");
-    background-blend-mode: overlay;
+    background-blend-mode: screen;
 }
 
 @media (min-width: 768px) {
