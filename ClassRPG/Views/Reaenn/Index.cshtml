@@ -1,13 +1,14 @@
-﻿@model AndyModel
+﻿@model ReaennModel
 @{
     Layout = "_LayoutAndy";
 }
 <h1>Reaenn's Domain</h1>
-<p class="bubble">This is Reaenn's domain</p>
-<div class="bubble">
+<p>This is Reaenn's domain</p>
+<div>
     <form asp-action="Display">
-        <label>Name?</label>
-        <input asp-for="CharacterName" type="text"/>
+        <label>Name</label>
+        <input asp-for="name" type="text" />
         <button type="submit">Submit</button>
     </form>
 </div>
+
