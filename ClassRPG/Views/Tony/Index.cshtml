@@ -1,6 +1,13 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model TonyModel
 @{
+    Layout = "_LayoutAndy";
 }
-<p>Hello world!</p>
+<h1>Andy's Domain</h1>
+<p class="bubble">This is andy's domain</p>
+<div class="bubble">
+    <form asp-action="Display">
+        <label>Name?</label>
+        <input asp-for="Name_Tony" type="text" />
+        <button type="submit">Submit</button>
+    </form>
+</div>
