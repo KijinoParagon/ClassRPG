@@ -1,1 +1,17 @@
-﻿<p>this is the best page (Jordan)</p>
+﻿@model JordanModel
+
+<p>this is the best page (Jordan)</p>
+
+<div class="bubble">
+    <form asp-action="Display">
+        <label>Enter Your Character Name</label>
+        <input asp-for="Name" type="text" />
+        <br />
+        <label>What is your favorite color?</label>
+        <input asp-for="Color" type="text" />
+        <br />
+        @Html.DropDownListFor(m => m.CharacterClass,
+        new SelectList(Enum.GetValues(typeof(Class))),
+        "Select Class")
+    </form>
+</div>
