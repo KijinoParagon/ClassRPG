@@ -6,9 +6,10 @@
 
 html {
     font-size: 14px;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, cover;
     background-image: url("../img/dead-fish-lying-on-the-beach-on-the-sand-with-sea-waves-free-photo.jpg"), 
+        url("../img/2963380121_preview_Screenshot from 2023-04-16 15-39-23.png"), 
         url("../img/cameron_files_pharaohs_curse6__large.jpg");
     background-blend-mode: screen;
 }
