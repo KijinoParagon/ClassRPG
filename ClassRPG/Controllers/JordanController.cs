@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ClassRPG.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ClassRPG.Controllers
 {
@@ -7,6 +8,11 @@ namespace ClassRPG.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Display(JordanModel model)
+        {
+            return View(model);
         }
     }
 }
