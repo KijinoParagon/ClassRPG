@@ -2,7 +2,7 @@
 
 namespace ClassRPG.Controllers
 {
-    public class Rohan : Controller
+    public class RohanController : Controller
     {
         public IActionResult Index()
         {
