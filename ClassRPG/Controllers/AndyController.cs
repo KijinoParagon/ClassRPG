@@ -14,5 +14,10 @@ namespace ClassRPG.Controllers
         {
             return View(model);
         }
+
+        public IActionResult Psychadelic() 
+        { 
+            return View(); 
+        }
     }
 }
